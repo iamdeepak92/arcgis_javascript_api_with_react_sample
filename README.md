@@ -24,3 +24,17 @@ cd arcgis_javascript_api_with_react_sample
 npm install
 
 ```
+
+### Run the Project
+
+After installing the dependencies, run the following command:
+
+```bash
+npm run dev
+```
+
+Once the build is complete, open the provided development URL in your web browser.
+
+### Conclusion
+
+Congratulations! You have successfully set up and run the React + ArcGIS JavaScript API-4.x sample project. If you encounter any issues or have questions, feel free to reach out. Happy coding!
