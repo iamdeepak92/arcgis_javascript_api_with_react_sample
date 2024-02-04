@@ -20,7 +20,17 @@ Open CMD in the desired folder where you want to download and run the project.
 
 ```bash
 git clone --branch master https://github.com/iamdeepak92/arcgis_javascript_api_with_react_sample.git
+```
+
+or
+
+Download this repo in a folder and extract it.
+
+```bash
 cd arcgis_javascript_api_with_react_sample
+```
+
+```bash
 npm install
 
 ```
