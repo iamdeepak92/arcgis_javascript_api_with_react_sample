@@ -1,8 +1,26 @@
-# React + Vite
+# React + ArcGIS JavaScript API-4.x Sample Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This GitHub repository contains a sample project that integrates React with the ArcGIS JavaScript API version 4.x. Follow the instructions below to set up and run the project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+Open CMD in the desired folder where you want to download and run the project.
+
+```bash
+git clone --branch master https://github.com/iamdeepak92/arcgis_javascript_api_with_react_sample.git
+cd arcgis_javascript_api_with_react_sample
+npm install
+
+```
