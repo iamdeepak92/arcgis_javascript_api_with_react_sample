@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import "https://js.arcgis.com/4.27/@arcgis/core/assets/esri/themes/light/main.css";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fcf7ff;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  position: relative;
+  height: 60px;
+  background-color: #5c307c;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-elements ul a.active {
+  border-bottom: 1px solid rgb(230, 230, 230);
+  padding-bottom: 3px;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-elements ul a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #574c4c;
+}
+
+.sidebar-container {
+  width: 25%;
+  background-color: #ecd2ff;
+  border-right: 1px solid #b773e8;
+}
+
+.about-container,
+.map-container {
+  margin: auto;
+  width: 75%;
+  padding: 2px;
+  height: calc(100vh - 64px) !important;
+}
+
+.home-container {
+  display: flex;
+}
+.mapDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.esri-view .esri-view-surface:focus::after {
+  outline: none;
+}
+
+.split-sidebar {
+  height: calc(50% - 60px);
+}
+
+.split-sidebar h4 {
+  margin: 0;
+  background-color: #e1bcfb;
+  padding: 5px;
+  border-bottom: 2px solid #ca94f1;
+}
+
+#toc {
+  height: 180px;
+}
+
+.brand {
+  font-size: larger;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.logo,
+.logo a {
+  display: flex;
+  align-items: center;
+  padding-inline: 5px;
+}
+
+.git-link {
+  text-decoration: none;
+  padding-inline: 3px;
+}
+
+.logo-img {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
